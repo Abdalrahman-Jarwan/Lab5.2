@@ -21,8 +21,8 @@ public class MainTest {
     @Test
     public void testGetTotal() {
         System.out.println("getTotal");
-        int[] Array = null;
-        int expResult = 0;
+        int[] Array = {1,2,3};
+        int expResult = 6;
         int result = Main.getTotal(Array);
         assertEquals(expResult, result);
         
@@ -31,8 +31,8 @@ public class MainTest {
     @Test
     public void testGetAverage() {
         System.out.println("getAverage");
-        int[] Array = null;
-        double expResult = 0.0;
+        int[] Array = {1,2,3};
+        double expResult = 2.0;
         double result = Main.getAverage(Array);
         assertEquals(expResult, result, 0.0);
         
@@ -41,8 +41,8 @@ public class MainTest {
     @Test
     public void testGetHighest() {
         System.out.println("getHighest");
-        int[] Array = null;
-        int expResult = 0;
+        int[] Array = {1,2,3};
+        int expResult = 3;
         int result = Main.getHighest(Array);
         assertEquals(expResult, result);
         
@@ -51,8 +51,8 @@ public class MainTest {
     @Test
     public void testGetLowest() {
         System.out.println("getLowest");
-        int[] Array = null;
-        int expResult = 0;
+        int[] Array = {1,2,3};
+        int expResult = 1;
         int result = Main.getLowest(Array);
         assertEquals(expResult, result);
        
